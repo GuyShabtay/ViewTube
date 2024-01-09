@@ -73,6 +73,11 @@ a {
     display:none !important;
   }
 }
+@media screen and (max-width:700px){
+  #viewtube-text{
+    display:none !important;
+  }
+}
 
 @media screen and (max-width: 600px) {
   .scroll-horizontal {
@@ -85,4 +90,5 @@ a {
   .search-bar{
     width:200px;
   }
+ 
 }

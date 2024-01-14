@@ -1,6 +1,6 @@
 import { Stack,Typography } from '@mui/material';
 import { Link } from 'react-router-dom';
-import { logo } from '../utils/constants';
+import  logo  from '../utils/youtube logo.png';
 import SearchBar from './SearchBar';
 const Navbar = () => (
   <Stack
@@ -14,11 +14,13 @@ const Navbar = () => (
       justifyContent: 'space-between',
     }}
   >
-    <Link to='/' style={{ display: 'flex', }}>
-      <img src={logo} alt='logo' height={45} style={{marginRight: '10px'}} />
-      <Typography id='viewtube-text' variant="h4" fontWeight="bold" mb={2} sx={{ color: "white" }}>
-           <span >ViewTube</span>
+    <Link to='/' style={{ display: 'flex'}}>
+      <img src={logo} alt='logo'  style={{marginRight: '2px',height:'40px'}} />
+     
+      <Typography id='viewtube-text' variant="h4"  mb={2} sx={{ color: "white", fontFamily: "'League Gothic', sans-serif;"}}>
+           <span>ViewTube</span>
         </Typography>
+        
     </Link>
     <SearchBar />
   </Stack>

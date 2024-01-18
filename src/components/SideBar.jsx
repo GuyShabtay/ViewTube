@@ -3,7 +3,7 @@ import { Stack } from "@mui/material";
 
 import { categories } from "../utils/constants";
 
-const Categories = ({ selectedCategory, setSelectedCategory }) => (
+const Sidebar = ({ selectedCategory, setSelectedCategory }) => (
   <Stack
     direction="row"
     sx={{
@@ -12,7 +12,7 @@ const Categories = ({ selectedCategory, setSelectedCategory }) => (
       flexDirection: { md: "column" },
     }}
   >
-  
+
     {categories.map((category) => (
       <button
         className="category-btn"
@@ -34,4 +34,4 @@ const Categories = ({ selectedCategory, setSelectedCategory }) => (
   </Stack>
 );
 
-export default Categories;
+export default Sidebar;

@@ -12,6 +12,7 @@ const Categories = ({ selectedCategory, setSelectedCategory }) => (
       flexDirection: { md: "column" },
     }}
   >
+  
     {categories.map((category) => (
       <button
         className="category-btn"

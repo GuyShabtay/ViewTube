@@ -26,6 +26,8 @@ const Navbar = () => {
     >
       <Link
         to='/'
+        id='home'
+
         style={{
           display: 'flex',
           position: 'absolute',
@@ -68,6 +70,7 @@ const Navbar = () => {
         }}
       >
         <MenuIcon
+        id='menu-icon'
           sx={{
             color: 'white',
             position: 'absolute',
@@ -75,9 +78,6 @@ const Navbar = () => {
             bottom: '0',
             height: '100%',
             width: '100%',
-           
-
-
           }}
         />
       </Button>
